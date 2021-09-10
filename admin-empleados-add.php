@@ -8,18 +8,23 @@
                     <span aria-hidden="true">&times;</span>
                 </button>
             </div>
-            <div class="col-sm-12">
-                <div class="profile-img-wrap edit-img">
-                    <img class="inline-block" src="assets/img/profiles/avatar-00.png" alt="user">
-                    <div class="fileupload btn">
-                        <span class="btn-text">Editar</span>
-                        <input class="upload" type="file">
-                    </div>
-                </div>
-            </div>
+
             <div class="modal-body">
-                <form action="admin-empleados-add-valida.php" method="POST">
+                <form action="admin-empleados-add-valida.php" method="post" enctype="multipart/form-data">
                     <div class="row">
+                        <div class="col-sm-12">
+                            <!-- 
+                            <div class="profile-img-wrap edit-img">
+                                <img class="inline-block" src="assets/img/profiles/avatar-00.png" alt="user">
+                                <div class="fileupload btn">
+                                    <span class="btn-text">Editar</span>
+                                    <input class="upload" type="file" id="image" name="image">
+                                </div>
+                            </div> -->
+                            <div class="form-group">
+                                <input type="file" id="image" name="image">
+                            </div>
+                        </div>
                         <div class="col-sm-6">
                             <div class="form-group">
                                 <label class="col-form-label">Nombre <span class="text-danger">*</span></label>
