@@ -72,11 +72,10 @@ include("head.php");
                     </div>
                 </div>
                 <!-- Search Filter -->
-
                 <div class="row">
                     <div class="col-md-12">
                         <div class="table-responsive">
-                            <table class="table table-striped custom-table datatable">
+                            <table id="table-empleados" class="table table-striped custom-table datatable">
                                 <thead>
                                     <tr>
                                         <th>Nombre</th>
@@ -89,229 +88,14 @@ include("head.php");
                                     </tr>
                                 </thead>
                                 <tbody>
-                                    <tr>
-                                        <td>
-                                            <h2 class="table-avatar">
-                                                <a href="profile.html" class="avatar"><img alt="" src="assets/img/profiles/avatar-02.jpg"></a>
-                                                <a href="profile.html">Miguel Díaz <span>Administrador</span></a>
-                                            </h2>
-                                        </td>
-                                        <td>FT-0001</td>
-                                        <td>migueldiaz@example.com</td>
-                                        <td>9876543210</td>
-                                        <td>01/01/2013</td>
-                                        <td>
-                                            <div class="dropdown">
-                                                <a href="" class="btn btn-white btn-sm btn-rounded dropdown-toggle" data-toggle="dropdown" aria-expanded="false">Calificador </a>
-                                                <div class="dropdown-menu">
-                                                    <a class="dropdown-item" href="#">Calificador</a>
-                                                    <a class="dropdown-item" href="#">Secretaria</a>
-                                                    <a class="dropdown-item" href="#">Contador</a>
-                                                </div>
-                                            </div>
-                                        </td>
-                                        <td class="text-right">
-                                            <div class="dropdown dropdown-action">
-                                                <a href="#" class="action-icon dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><i class="material-icons">more_vert</i></a>
-                                                <div class="dropdown-menu dropdown-menu-right">
-                                                    <a class="dropdown-item" href="#" data-toggle="modal" data-target="#edit_employee"><i class="fa fa-pencil m-r-5"></i> Edit</a>
-                                                    <a class="dropdown-item" href="#" data-toggle="modal" data-target="#delete_employee"><i class="fa fa-trash-o m-r-5"></i> Delete</a>
-                                                </div>
-                                            </div>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <h2 class="table-avatar">
-                                                <a href="profile.html" class="avatar"><img alt="" src="assets/img/profiles/avatar-09.jpg"></a>
-                                                <a href="profile.html">Richard Rojas <span>Calificador</span></a>
-                                            </h2>
-                                        </td>
-                                        <td>FT-0002</td>
-                                        <td>richardrojas@example.com</td>
-                                        <td>9876543210</td>
-                                        <td>18/03/2014</td>
-                                        <td>
-                                            <div class="dropdown">
-                                                <a href="" class="btn btn-white btn-sm btn-rounded dropdown-toggle" data-toggle="dropdown" aria-expanded="false">Calificador </a>
-                                                <div class="dropdown-menu">
-                                                    <a class="dropdown-item" href="#">Calificador</a>
-                                                    <a class="dropdown-item" href="#">Secretaria</a>
-                                                    <a class="dropdown-item" href="#">Contador</a>
-                                                </div>
-                                            </div>
-                                        </td>
-                                        <td class="text-right">
-                                            <div class="dropdown dropdown-action">
-                                                <a href="#" class="action-icon dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><i class="material-icons">more_vert</i></a>
-                                                <div class="dropdown-menu dropdown-menu-right">
-                                                    <a class="dropdown-item" href="#" data-toggle="modal" data-target="#edit_employee"><i class="fa fa-pencil m-r-5"></i> Edit</a>
-                                                    <a class="dropdown-item" href="#" data-toggle="modal" data-target="#delete_employee"><i class="fa fa-trash-o m-r-5"></i> Delete</a>
-                                                </div>
-                                            </div>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <h2 class="table-avatar">
-                                                <a href="profile.html" class="avatar"><img alt="" src="assets/img/profiles/avatar-10.jpg"></a>
-                                                <a href="profile.html">John Flores <span>Calificador</span></a>
-                                            </h2>
-                                        </td>
-                                        <td>FT-0003</td>
-                                        <td>johnflores@example.com</td>
-                                        <td>9876543210</td>
-                                        <td>01/04/2014</td>
-                                        <td>
-                                            <div class="dropdown">
-                                                <a href="" class="btn btn-white btn-sm btn-rounded dropdown-toggle" data-toggle="dropdown" aria-expanded="false">Calificador </a>
-                                                <div class="dropdown-menu">
-                                                    <a class="dropdown-item" href="#">Calificador</a>
-                                                    <a class="dropdown-item" href="#">Secretaria</a>
-                                                    <a class="dropdown-item" href="#">Contador</a>
-                                                </div>
-                                            </div>
-                                        </td>
-                                        <td class="text-right">
-                                            <div class="dropdown dropdown-action">
-                                                <a href="#" class="action-icon dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><i class="material-icons">more_vert</i></a>
-                                                <div class="dropdown-menu dropdown-menu-right">
-                                                    <a class="dropdown-item" href="#" data-toggle="modal" data-target="#edit_employee"><i class="fa fa-pencil m-r-5"></i> Edit</a>
-                                                    <a class="dropdown-item" href="#" data-toggle="modal" data-target="#delete_employee"><i class="fa fa-trash-o m-r-5"></i> Delete</a>
-                                                </div>
-                                            </div>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <h2 class="table-avatar">
-                                                <a href="profile.html" class="avatar"><img alt="" src="assets/img/profiles/avatar-05.jpg"></a>
-                                                <a href="profile.html">Luis Alberto <span>Contador</span></a>
-                                            </h2>
-                                        </td>
-                                        <td>FT-0004</td>
-                                        <td>luisalberto@example.com</td>
-                                        <td>9876543210</td>
-                                        <td>01/04/2014</td>
-                                        <td>
-                                            <div class="dropdown">
-                                                <a href="" class="btn btn-white btn-sm btn-rounded dropdown-toggle" data-toggle="dropdown" aria-expanded="false">Calificador </a>
-                                                <div class="dropdown-menu">
-                                                    <a class="dropdown-item" href="#">Calificador</a>
-                                                    <a class="dropdown-item" href="#">Secretaria</a>
-                                                    <a class="dropdown-item" href="#">Contador</a>
-                                                </div>
-                                            </div>
-                                        </td>
-                                        <td class="text-right">
-                                            <div class="dropdown dropdown-action">
-                                                <a href="#" class="action-icon dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><i class="material-icons">more_vert</i></a>
-                                                <div class="dropdown-menu dropdown-menu-right">
-                                                    <a class="dropdown-item" href="#" data-toggle="modal" data-target="#edit_employee"><i class="fa fa-pencil m-r-5"></i> Edit</a>
-                                                    <a class="dropdown-item" href="#" data-toggle="modal" data-target="#delete_employee"><i class="fa fa-trash-o m-r-5"></i> Delete</a>
-                                                </div>
-                                            </div>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <h2 class="table-avatar">
-                                                <a href="profile.html" class="avatar"><img alt="" src="assets/img/profiles/avatar-11.jpg"></a>
-                                                <a href="profile.html">Wilder Sánchez <span>Contador</span></a>
-                                            </h2>
-                                        </td>
-                                        <td>FT-0005</td>
-                                        <td>wildersanchez@example.com</td>
-                                        <td>9876543210</td>
-                                        <td>22/05/2014</td>
-                                        <td>
-                                            <div class="dropdown">
-                                                <a href="" class="btn btn-white btn-sm btn-rounded dropdown-toggle" data-toggle="dropdown" aria-expanded="false">Calificador </a>
-                                                <div class="dropdown-menu">
-                                                    <a class="dropdown-item" href="#">Calificador</a>
-                                                    <a class="dropdown-item" href="#">Secretaria</a>
-                                                    <a class="dropdown-item" href="#">Contador</a>
-                                                </div>
-                                            </div>
-                                        </td>
-                                        <td class="text-right">
-                                            <div class="dropdown dropdown-action">
-                                                <a href="#" class="action-icon dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><i class="material-icons">more_vert</i></a>
-                                                <div class="dropdown-menu dropdown-menu-right">
-                                                    <a class="dropdown-item" href="#" data-toggle="modal" data-target="#edit_employee"><i class="fa fa-pencil m-r-5"></i> Edit</a>
-                                                    <a class="dropdown-item" href="#" data-toggle="modal" data-target="#delete_employee"><i class="fa fa-trash-o m-r-5"></i> Delete</a>
-                                                </div>
-                                            </div>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <h2 class="table-avatar">
-                                                <a href="profile.html" class="avatar"><img alt="" src="assets/img/profiles/avatar-12.jpg"></a>
-                                                <a href="profile.html">Jeffrey Rodríguez <span>Calificador</span></a>
-                                            </h2>
-                                        </td>
-                                        <td>FT-0006</td>
-                                        <td>jeffreyrodriguez@example.com</td>
-                                        <td>9876543210</td>
-                                        <td>16/06/2013</td>
-                                        <td>
-                                            <div class="dropdown">
-                                                <a href="" class="btn btn-white btn-sm btn-rounded dropdown-toggle" data-toggle="dropdown" aria-expanded="false">Calificador </a>
-                                                <div class="dropdown-menu">
-                                                    <a class="dropdown-item" href="#">Calificador</a>
-                                                    <a class="dropdown-item" href="#">Secretaria</a>
-                                                    <a class="dropdown-item" href="#">Contador</a>
-                                                </div>
-                                            </div>
-                                        </td>
-                                        <td class="text-right">
-                                            <div class="dropdown dropdown-action">
-                                                <a href="#" class="action-icon dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><i class="material-icons">more_vert</i></a>
-                                                <div class="dropdown-menu dropdown-menu-right">
-                                                    <a class="dropdown-item" href="#" data-toggle="modal" data-target="#edit_employee"><i class="fa fa-pencil m-r-5"></i> Edit</a>
-                                                    <a class="dropdown-item" href="#" data-toggle="modal" data-target="#delete_employee"><i class="fa fa-trash-o m-r-5"></i> Delete</a>
-                                                </div>
-                                            </div>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <h2 class="table-avatar">
-                                                <a href="profile.html" class="avatar"><img alt="" src="assets/img/profiles/avatar-13.jpg"></a>
-                                                <a href="profile.html">Bernardo Quispe <span>Contador</span></a>
-                                            </h2>
-                                        </td>
-                                        <td>FT-0007</td>
-                                        <td>bernardoquispe@example.com</td>
-                                        <td>9876543210</td>
-                                        <td>1 Jan 2013</td>
-                                        <td>
-                                            <div class="dropdown">
-                                                <a href="" class="btn btn-white btn-sm btn-rounded dropdown-toggle" data-toggle="dropdown" aria-expanded="false">Calificador </a>
-                                                <div class="dropdown-menu">
-                                                    <a class="dropdown-item" href="#">Calificador</a>
-                                                    <a class="dropdown-item" href="#">Secretaria</a>
-                                                    <a class="dropdown-item" href="#">Contador</a>
-                                                </div>
-                                            </div>
-                                        </td>
-                                        <td class="text-right">
-                                            <div class="dropdown dropdown-action">
-                                                <a href="#" class="action-icon dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><i class="material-icons">more_vert</i></a>
-                                                <div class="dropdown-menu dropdown-menu-right">
-                                                    <a class="dropdown-item" href="#" data-toggle="modal" data-target="#edit_employee"><i class="fa fa-pencil m-r-5"></i> Edit</a>
-                                                    <a class="dropdown-item" href="#" data-toggle="modal" data-target="#delete_employee"><i class="fa fa-trash-o m-r-5"></i> Delete</a>
-                                                </div>
-                                            </div>
-                                        </td>
-                                    </tr>
+                                    <?php
+                                    include("admin-empleados-cargar.php");
+                                    ?>
                                 </tbody>
                             </table>
                         </div>
                     </div>
                 </div>
-
             </div>
             <!-- /Page Content -->
 

@@ -1,3 +1,7 @@
+<?php 
+    echo $_GET['editid'];
+?>
+
 <!-- Delete Employee Modal -->
 <div class="modal custom-modal fade" id="delete_employee" role="dialog">
     <div class="modal-dialog modal-dialog-centered">
@@ -6,9 +10,7 @@
                 <div class="form-header">
                     <h3>Eliminar empleado</h3>
                     <p>¿Seguro que quieres eliminarlo?</p>
-                    <p><?php if (isset($_GET["editid"])) {
-                            echo $_GET['editid'];
-                        }  ?></p>
+                    
                 </div>
                 <div class="modal-btn delete-action">
                     <div class="row">
